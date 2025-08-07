@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minhas Metas Diárias</title>
+  <style>
+    
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+    }
+    #task-list {
+      list-style-type: none;
+      padding: 0;
+    }
+    #task-list li {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px;
+      border-bottom: 1px solid #ddd;
+    }
+    .remove-task {
+      cursor: pointer;
+      color: red;
+    }
+
+    .edit-task {
+      cursor: pointer;
+      color: blue;
+
+    }
+
+    
+  </style>
+</head>
+<body>
+  <h1>Gerencie Tarefas</h1>
+  
+  <input type="text" id="task-input" placeholder="Adicionar nova tarefa" />
+  
+  <button id="add-task">Adicionar Tarefa</button>
+  
+  <ul id="task-list"></ul>
+
+  <script src="newtab.js"></script>
+</body>
+</html>
